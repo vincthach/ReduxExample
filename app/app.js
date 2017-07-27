@@ -8,7 +8,7 @@ import homeReducers from './reducers/HomeReducers'
 import HomeContainer from './containers/HomeContainer'
 
 const store = createStore(combineReducers( {homeData: homeReducers} ), applyMiddleware(thunk))
-
+// this is new config
 export default class MeebooReact extends Component {
 
   render() {
